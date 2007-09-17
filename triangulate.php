@@ -53,7 +53,8 @@ function newregion()
 	// This function was written in such a way that it should scale to as
 	// many dimensions as can be reliably iterated through using a
 	// floating-point iterator. (This first version is sloppy...I don't
-	// know that PHP
+	// know that PHP assumes integer data types if no decimal value is
+	// present.)
 	
 	// I use PHP's arbitraty precision math support extensively, as it's the
 	// only way to get around inaccuracies in IEEE floating point.  However,
